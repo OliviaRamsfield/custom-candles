@@ -1,5 +1,8 @@
 import React from 'react';
 import About from './About';
+import Photos from './Photos';
+import Design from './Design';
+import Contact from './Contact';
 
 function Nav() {
     return(
