@@ -9,6 +9,14 @@
 body {
     background-color: var(--background);
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    margin-right: 20px;
+    border-right: 2px solid var(--highlight);
+}
 
 h1 {
     color: var(--secondary);
@@ -16,8 +24,4 @@ h1 {
 
 p {
     color: var(--primary);
-}
-
-img {
-    border: 2px solid var(--highlight);
 }

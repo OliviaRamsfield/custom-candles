@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
     return(
-        <section>
-            <div>
+        <section className='flex-container'>
+            <div className='image'>
                 <img src="../assets/photos/aboutus.jpeg" alt="Candle"></img>
                 <p>Something catchy here</p>
             </div>
