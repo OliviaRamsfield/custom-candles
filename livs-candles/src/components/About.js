@@ -1,10 +1,11 @@
 import React from 'react';
+import aboutUs from '../assets/photos/aboutus.jpeg';
 
 function About() {
     return(
         <section className='flex-container'>
             <div className='image'>
-                <img src="../assets/photos/aboutus.jpeg" alt="Candle"></img>
+                <img id='about-us' src={aboutUs} alt="Candle"></img>
                 <p>Something catchy here</p>
             </div>
             <div>
