@@ -9,6 +9,25 @@
 body {
     background-color: var(--background);
 }
+
+#title {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark);
+    margin-bottom: 15px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px; 
+  display: inline; 
+  color: var(--secondary);
+}
+
+li:hover {
+    color: var(--highlight);
+}
 .flex-container {
     display: flex;
     flex-direction: row;

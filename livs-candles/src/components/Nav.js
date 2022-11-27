@@ -1,19 +1,16 @@
 import React from 'react';
-import About from './About';
-import Photos from './Photos';
-import Design from './Design';
-import Contact from './Contact';
 
 function Nav() {
     return(
-        <header>
+        <header id='title'>
             <h1>Liv's Custom Candles</h1>
-            <nav>
-                <About></About>
-                <Photos></Photos>
-                <Design></Design>
-                <Contact></Contact>
-            </nav>
+            <ul>
+                <li>About</li>
+                <li>Design</li>
+                <li>Photos</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
         </header>
     );
 };
